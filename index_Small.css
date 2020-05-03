@@ -18,7 +18,7 @@ body {
 }
 /* initial stylings end */
 /* ---------------------------------------------------------------------------------------------------------- */
-/* header start */
+/* header */
 
 #header {
     position: absolute;
@@ -57,9 +57,9 @@ body {
 .string-pad {
     margin-bottom: 10px;
 }
-/* header end */
+/* end header */
 /* ---------------------------------------------------------------------------------------------------------- */
-/* background triangle start */
+/* background triangle */
 
 #back-cont {
     z-index: -1;
@@ -67,25 +67,28 @@ body {
     background-color: #F4F4F4;
     background-image: linear-gradient(to bottom right, #2f3441 49.95%, #F4F4F4 50%);
 }
-/* background triangle end */
+/* end background triangle */
 /* ---------------------------------------------------------------------------------------------------------- */
-/* profile start */
+/* profile */
+
+#about-me-cont {
+    width: 80%;
+    margin-bottom: 20px;
+}
 
 #about-me {
-    width: 1000px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 #its-me {
     position: absolute;
-    top: 25vh;
-    left: 150px;
+    top: 20vh;
+    left: 11%;
     z-index: 1;
     color: #3a86ff;
-    font-size: calc(18vw - 50px);
+    font-size: calc(17vw);
     font-weight: heavy;
-
 }
 
 #contact-cont {
@@ -95,14 +98,14 @@ body {
 
 #contact-bar {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    font-size: 30px;
+    grid-template-columns: repeat(3, 32%);
+    font-size: 5vw;
 }
 
 #contact-bar1 {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    font-size: 20px;
+    grid-template-columns: repeat(3, 32%);
+    font-size: 1.5vw;
 }
 
 .contact-div {
@@ -112,6 +115,10 @@ body {
 .contact-div1 {
     text-align: center;
     transform: translate(-10%, 0);
+}
+
+.contact-icon {
+    font-size: 50px;
 }
 
 #h3-about {
@@ -125,12 +132,8 @@ body {
 #exp-ed {
     margin-left: 50px;
     display: grid;
-    grid-template-columns: repeat(2, 550px);
-    row-gap: 30px;
-}
-
-.contact-icon {
-    height: 50px;
+    grid-template-columns: repeat(2, 65%);
+    grid-row-gap: 20px;
 }
 /* end profile */
 /* ---------------------------------------------------------------------------------------------------------- */
@@ -139,30 +142,29 @@ body {
 #link-cont {
     background-color: rgb(230, 242, 253);
     border: 3px solid rgb(85, 127, 190);
+    padding-left: 15px;
     margin-right: 10px;
-    width: 500px;
-    margin-left: 40px;
-    padding-bottom: 50px;
 }
 
 a {
     text-decoration: none;
-    padding: 5px;
+    padding: 6px;
     margin-bottom: 50px;
-    color: #2f3441;
 }
 
 a:hover {
     color: white;
-    background-color: #2f3441;
+}
+
+a {
+    color: #2f3441;
 }
 
 .div-link {
     color: #2f3441;
     width: max-content;
     margin-bottom: 10px;
-    padding-bottom: 10px;
-    margin-left: 10px;
+    padding: 5px;
 }
 
 .div-link:hover {
@@ -173,10 +175,6 @@ a:hover {
 /* links end */
 /* ---------------------------------------------------------------------------------------------------------- */
 /* general stying classes start */
-
-.col-space {
-    margin-right: 30px;
-}
 
 .tab-right {
     margin-left: 50px;
@@ -192,6 +190,12 @@ a:hover {
 
 .little-big {
     font-size: 20px;
+}
+
+.container {
+    width: 500px;
+    margin-left: 50px;
+    padding-bottom: 50px;
 }
 
 h3, h5 {
@@ -221,11 +225,11 @@ h3, h5 {
 
 .flip {
     display: grid;
-    grid-template-columns: 60% 30%;
+    grid-template-columns: 40% 30%;
 }
 
 #code-div {
-    transform: translate(550px, 0);
+    transform: translate(700px, 0);
 }
 /* main storage container end */
 /* ---------------------------------------------------------------------------------------------------------- */
@@ -237,70 +241,3 @@ h3, h5 {
     right: 10px;
 }
 /* footer end */
-/* ---------------------------------------------------------------------------------------------------------- */
-/* start media queries */
-@media screen and (max-width: 1100px) {
-    #about-me {
-        width: 80%;
-    }
-    #its-me {
-        top: 20vh;
-        font-size: calc(18vw - 30px);
-    }
-    #contact-bar {
-        grid-template-columns: repeat(3, 32%);
-        font-size: 2vw;
-    }
-    #contact-bar1 {
-        grid-template-columns: repeat(3, 32%);
-        font-size: calc(10px + 0.8vw);
-    }
-    #exp-ed {
-        grid-template-columns: repeat(2, 60%);
-    }
-    .flip {
-        display: block;
-    }
-    #code-div {
-        display: block;
-        transform: translate(0, 0);
-    }
-    #basin {
-        display: block;
-        position: relative;
-    }
-}
-@media screen and (max-width: 850px) {
-    .contact-div1 {
-        text-align: left;
-        margin-left: 25px;
-        margin-bottom: 34px;
-    }
-    #contact-bar {
-        display: block;
-        font-size: 3vw;
-    }
-    #contact-bar1 {
-        display: inline-block;
-        font-size: calc(10px + 0.8vw);
-    }
-    #contact-cont {
-        display: grid;
-        grid-template-columns: 10% 60%;
-        margin-left: 30px;
-        margin-bottom: 20px;
-    }
-    #exp-ed {
-        display: block;
-    }
-    .col-space {
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 600px) {
-    #link-cont {
-        width: 400px;
-        position: relative;
-        right: 8px;
-    }
-}

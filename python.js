@@ -75,11 +75,14 @@ $("body").on("click", "#3-3", function() {
     def gridSearch(G, P):
 
         search = []
-        # we're going to loop through the given matrix, taking care not to loop within x or y cells near
-        # the edge of the big matrix. we're going to check every value we come across until it matches 
-        # the first value of the smaller matrix. the checks will continue within the xy dimensions of the 
-        # smaller matrix, breaking if a false value is encountered, until either a match is found or it 
-        # gets to the end of the larger matrix. returns yes if TRUE, no if FALSE
+        # we're going to loop through the given matrix, taking care 
+        # not to loop within x or y cells near the edge of the big 
+        #matrix. we're going to check every value we come across 
+        #until it matches the first value of the smaller matrix. the 
+        #checks will continue within the xy dimensions of the smaller 
+        #matrix, breaking if a false value is encountered, until 
+        #either a match is found or it gets to the end of the larger 
+        #matrix. returns yes if TRUE, no if FALSE
 
         for x in range(len(G)-(len(P)-1)):
             for y in range(len(G[0])-(len(P[0])-1)):
