@@ -1,7 +1,4 @@
 
-const basinInfo = $("#basin-info")
-var itme = $("#its-me");
-
 $("body").on("click", "#act-rock", function() {
     itme.empty()
     itme.text("ROCK CLIMBING")

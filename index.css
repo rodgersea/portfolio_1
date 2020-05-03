@@ -85,7 +85,13 @@ body {
     color: #3a86ff;
     font-size: calc(18vw - 50px);
     font-weight: heavy;
+}
 
+#the-arrow {
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
 }
 
 #contact-cont {

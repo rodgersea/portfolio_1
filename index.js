@@ -1,6 +1,7 @@
 
-var basin = $("#basin")
-var itme = $("#its-me")
+const basinInfo = $("#basin-info");
+const basin = $("#basin");
+const itme = $("#its-me");
 var page_Track = 0;
 
 function initialize() {
