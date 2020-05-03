@@ -176,17 +176,17 @@ function three() {
                 <h3>personally difficult hackerrank python problems</h3>
                 <div id="div-grab">
                     <div class="inline"><a href="https://www.hackerrank.com/challenges/diagonal-difference/problem">diagonal difference in matrix</a></div>
-                    <div id="3-0" class="tab-right">display solution below</div>
+                    <div id="3-0" class="tab-right">display solution</div>
                     <div class="inline"><a href="https://www.hackerrank.com/challenges/staircase/problem">staircase of n height</a></div>
-                    <div id="3-1" class="tab-right">display solution below</div>
+                    <div id="3-1" class="tab-right">display solution</div>
                     <div class="inline"><a href="https://www.hackerrank.com/challenges/mini-max-sum/problem">mini-max sum</a></div>
-                    <div id="3-2" class="tab-right">display solution below</div>
+                    <div id="3-2" class="tab-right">display solution</div>
                     <div class="inline"><a href="https://www.hackerrank.com/challenges/the-grid-search/problem">search for embedded matrix</a></div>
-                    <div id="3-3" class="tab-right">display solution below</div>
+                    <div id="3-3" class="tab-right">display solution</div>
                     <div class="inline"><a href="https://www.hackerrank.com/challenges/happy-ladybugs/problem">check if array is sortable</a></div>
-                    <div id="3-4" class="tab-right">display solution below</div>
+                    <div id="3-4" class="tab-right">display solution</div>
                     <div class="inline"><a href="https://www.hackerrank.com/challenges/strange-code/problem">strange counter</a></div>
-                    <div id="3-5" class="tab-right">display solution below</div>
+                    <div id="3-5" class="tab-right">display solution</div>
                 </div>
             </div>
         </div>
