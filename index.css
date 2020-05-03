@@ -221,3 +221,6 @@ a:hover {
     grid-template-columns: 40% 30%;
 }
 
+#code-div {
+    transform: translate(700px, 0);
+}

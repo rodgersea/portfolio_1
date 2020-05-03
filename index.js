@@ -24,14 +24,17 @@ function initialize() {
 $("#profile-button").on("click", function() {
     page_Track = 0;
     zero()
+    $("#code-div").empty()
 })
 $("#javascript-button").on("click", function() {
     page_Track = 1;
     one()
+    $("#code-div").empty()
 })
 $("#school-button").on("click", function() {
     page_Track = 2;
     two()
+    $("#code-div").empty()
 })
 $("#python-button").on("click", function() {
     page_Track = 3;
@@ -40,6 +43,7 @@ $("#python-button").on("click", function() {
 $("#interest-button").on("click", function() {
     page_Track = 4;
     four()
+    $("#code-div").empty()
 })
 function zero() {    
     itme.empty()
