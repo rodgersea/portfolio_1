@@ -1,0 +1,107 @@
+*, :root {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#title {
+    text-align: center;
+    margin-right: 150px;
+    height: auto;
+}
+
+#cal-cont {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+hr {
+    border: 3px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
+
+input {
+    display: block;
+    height: 40px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.hour-block-class {
+    height: 42px;
+}
+
+.save-block {
+    border: none;
+    height: 40px;
+    display: inline-block;
+    width: 120px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.drop-div {
+    position: fixed;
+    top: 10px;
+    right: 140px;
+    z-index: 1;
+}
+
+#drop-down {
+    position: absolute;
+    height: 200px;
+}
+
+.drop-btn {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.btn1 {
+    position: relative;
+    border: 1px solid grey;
+    padding-left: 10px;
+    text-align: center;
+    display: none;
+    height: 40px;
+    width: 150px;
+}
+
+.show {
+    display: inline-block;
+}
+
+.form-block-week {
+    display: grid;
+    grid-template-columns: repeat(7, 14.25%);
+}
+
+.week-day {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#week-header {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.week-header {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(7, 14.25%);
+}
+
+.save-button-class {
+    width: 100%;
+    height: 42px;
+    border: 1px solid black;
+}
