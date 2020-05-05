@@ -309,4 +309,7 @@ h3, h5 {
         position: relative;
         right: 8px;
     }
+    #link-cont {
+        width: 87%;
+    }
 }

@@ -166,3 +166,45 @@ $("body").on("click", "#3-5", function() {
         return location
     </code></pre>`)
 })
+
+$("body").on("click", "#3-6", function() {
+    $("#code-div").empty()
+    $("#code-div").append(`<pre><code>
+    def surfaceArea(A):     
+        matte = A
+        area = 0
+        print(matte[0][0])
+
+        for x in range(0, len(matte)):
+            for y in range(0, len(matte[0])):
+                if matte[x][y] != 0:
+                    area += 2
+
+                # ceiling/ floor, adds 2 if height > 0
+                if x == 0:
+                    area += matte[x][y]
+                if x != 0 and matte[x][y] > matte[x - 1][y]:
+                    area += (matte[x][y] - matte[x - 1][y])
+
+                # left
+                if y == 0:
+                    area += matte[x][y]
+                if y != 0:
+                    if matte[x][y] > matte[x][y - 1]:
+                        area += (matte[x][y] - matte[x][y - 1])
+
+                # right
+                if y == (len(matte[x]) - 1):
+                    area += matte[x][y]
+                if y != (len(matte[0]) - 1):
+                    if matte[x][y] > matte[x][y + 1]:
+                        area += (matte[x][y] - matte[x][y + 1])
+
+                # bottom
+                if x == (len(matte) - 1):
+                    area += matte[x][y]
+                if x != (len(matte) - 1) and matte[x][y] > matte[x + 1][y]:
+                    area += (matte[x][y] - matte[x + 1][y])
+        return area
+    </code></pre>`)
+})

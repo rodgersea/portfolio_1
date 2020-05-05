@@ -180,6 +180,8 @@ function three() {
                 <div id="3-4" class="tab-right">display solution</div>
                 <div class="inline"><a target="_blank" href="https://www.hackerrank.com/challenges/strange-code/problem">strange counter</a></div>
                 <div id="3-5" class="tab-right">display solution</div>
+                <div class="inline"><a target="_blank" href="https://www.hackerrank.com/challenges/3d-surface-area/problem">3d surface area</a></div>
+                <div id="3-6" class="tab-right">display solution</div>
             </div>
         </div>
     `)
