@@ -146,11 +146,11 @@ function two() {
         <div id="link-cont" class="heavy">
             <h3>school work</h3>
             <div id="div-grab">
-                <div><a href="homework/hw_2-portfolio/index.html">mock portfolio</a></div>
-                <div><a href="homework/hw_3-password/index.html">password generator</a></div>
+                <div><a href="homework/hw_2/index.html">mock portfolio</a></div>
+                <div><a href="homework/hw_3/index.html">password generator</a></div>
                 <div><a href="homework/hw_4-multiple_Choice/index.html">multiple choice quiz with javascript</a></div>
                 <div><a href="homework/hw_5-workday/index.html">daily calendar with local storage</a></div>
-                <div><a href="homework/hw_6-weather/index.html">displays weather for city using api</a></div>
+                <div><a href="homework/hw_6/index.html">displays weather for city using api</a></div>
                 <div><a href="homework/hw_7-proj_1/index.html">group project, gas/electric car fuel map using api</a></div>
             </div>
         </div>
