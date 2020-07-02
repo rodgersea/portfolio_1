@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Weather Dashboard</header>
+
+    <div id="body-cont">
+        <!-- 2 columns -->
+        <div id="search-col">
+            <div id="top-left">
+                <div id="enter-city">Enter a City:</div>
+                <input id="city">
+                <i id="search" class="fa fas fa-search"></i>
+                <button id="clear-search">Clear search history</button>
+                <br>
+            </div>
+            <div id="bottom-left">
+                <div id="search-history"></div>
+            </div>
+        </div>        
+
+        <div id="card-col">
+            <div id="current-day">
+                <div id="city-date">...</div>
+                <br>
+                <div id="temp">...</div>
+                <br>
+                <div id="wind-speed">...</div>
+                <br>
+                <div id="uv-index">...</div>
+            </div>
+            <br>
+            <div id="five-day-forecast">
+                <p class="heavy">5-Day Forecast:</p>
+                <!-- 5 columns -->
+                <div id="forecast-cont"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
