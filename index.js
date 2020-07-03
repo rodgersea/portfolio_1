@@ -56,8 +56,7 @@ function zero() {
             <div class="little-big">I'M ELLIOTT, A RALEIGH, NC BASED WEB DEVELOPER.</div>
             <br>
             <div class="time-head">1993 - 2011</div>
-            <div id="time-body">My interests constantly changed throughout the formative years but always included a <span class="heavy">love of 
-                challenging puzzles.</span>
+            <div id="time-body">My interests constantly changed throughout the formative years but always enjoyed <span class="heavy">good challenge.</span>
             </div>
             <br>
             <div class="time-head">2011-2017</div>
@@ -84,7 +83,7 @@ function zero() {
                 <div class="contact-div"><i class="contact-icon fab fa fa-twitter"></i></div>
             </div>
             <div id="contact-bar1">
-                <div class="contact-div1"><a href="elliottarodgers@gmail.com">elliottarodgers@gmail.com</a></div>
+                <div class="contact-div1">elliottarodgers@gmail.com</a></div>
                 <div class="contact-div1"><a href="https://www.linkedin.com/in/elliott-rodgers/">https://www.linkedin.com/in/elliott-rodgers/</a></div>
                 <div class="contact-div1"><a href="http://twitter.com/elliottarodgers">http://twitter.com/elliottarodgers</a></div>
             </div>
@@ -146,12 +145,39 @@ function two() {
         <div id="link-cont" class="heavy">
             <h3>school work</h3>
             <div id="div-grab">
-                <div><a href="homework/hw_2/index.html">mock portfolio</a></div>
-                <div><a href="homework/hw_3/index.html">password generator</a></div>
-                <div><a href="homework/hw_4-multiple_Choice/index.html">multiple choice quiz with javascript</a></div>
-                <div><a href="homework/hw_5-workday/index.html">daily calendar with local storage</a></div>
-                <div><a href="homework/hw_6/index.html">displays weather for city using api</a></div>
-                <div><a href="homework/hw_7-proj_1/index.html">group project, gas/electric car fuel map using api</a></div>
+                <div><a href="https://rodgersea.github.io/hw_2/">mock portfolio</a></div>
+                <div><a href="https://github.com/rodgersea/hw_2">github link</a></div>
+                <br>
+                <div><a href="https://rodgersea.github.io/hw_3/">password generator</a></div>
+                <div><a href="https://github.com/rodgersea/hw_3">github link</a></div>
+                <br>
+                <div><a href="https://rodgersea.github.io/hw_4/">multiple choice quiz with javascript</a></div>
+                <div><a href="https://github.com/rodgersea/hw_4">github link</a></div>
+                <br>
+                <div><a href="https://rodgersea.github.io/hw_5/">daily calendar with local storage</a></div>
+                <div><a href="https://github.com/rodgersea/hw_5">github link</a></div>
+                <br>
+                <div><a href="https://rodgersea.github.io/hw_6/">displays weather for city using api</a></div>
+                <div><a href="https://github.com/rodgersea/hw_6">github link</a></div>
+                <br>
+                <div><a href="https://team6diamondplatipi.github.io/TechnicallyAMammal/">group project, gas/electric car fuel map using api's</a></div>
+                <div><a href="https://github.com/Team6DiamondPlatipi/TechnicallyAMammal">github link</a></div>
+                <br>
+                <div><a href="https://github.com/rodgersea/hw_9">dynamically generate readme for file</a></div>
+                <br>
+                <div><a href="https://github.com/rodgersea/hw_10">command line employee/ business manager</a></div>
+                <br>
+                <div><a href="https://damp-meadow-20864.herokuapp.com/">note taker on server</a></div>
+                <div><a href="https://github.com/rodgersea/hw_11">github link</a></div>
+                <br>
+                <div><a href="https://github.com/rodgersea/hw_12">command line employee tracker with sql</a></div>
+                <br>
+                <div><a href="https://dashboard.heroku.com/apps/peaceful-taiga-27602">node express burger tracker</a></div>
+                <div><a href="https://github.com/rodgersea/hw_13">github link</a></div>
+                <br>
+                <div><a href="https://afternoon-eyrie-99732.herokuapp.com/">student teaching interactive calendar</a></div>
+                <div><a href="https://github.com/Mpolan16/project2-jjem">github link</a></div>
+                <br>
             </div>
         </div>
     `)
